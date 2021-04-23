@@ -1,0 +1,14 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "a good readme generator that gets input over command line",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hunter barton",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  }
+}
