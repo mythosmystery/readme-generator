@@ -1,13 +1,13 @@
-const inquirer = require("inquirer");
+// TODO: Include packages needed for this application
 
-inquirer
-   .prompt([
-      {
-         type: "input",
-         message: "What is your user name?",
-         name: "username",
-      },
-   ])
-   .then((response) => {
-      console.log(response.username);
-   });
+// TODO: Create an array of questions for user input
+const questions = [];
+
+// TODO: Create a function to write README file
+function writeToFile(fileName, data) {}
+
+// TODO: Create a function to initialize app
+function init() {}
+
+// Function call to initialize app
+init();
