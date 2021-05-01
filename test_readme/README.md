@@ -1,11 +1,9 @@
+    
+
     #  Title: Good Readme Generator
-
-    [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
-
+    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     ### Project Created By: Hunter Barton
-
-    ### Description: A command line app to generate professional readme files.
-
+    ### Description: A command line app that generates a professional readme file. This readme includes all of the info that any readme file should have.
     **
     ## Table of Contents
     * [Installation](#installation)
@@ -17,19 +15,19 @@
     
     **
     ## Installation 
-    Simply install Node.js and navigate to the project folder
+    Simply install node.js and navigate to the repository folder. Run 'npm install' then run 'node index.js'.
 
     ## Usage
-    Run "node index.js" then enter the information when prompted. The output readme file will be created in test_readme
+    Run 'node index.js' then input all of the information about your project when prompted.
 
     ## License 
-    [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
     ## Contributing
     If you would like to add to this project, you can [follow me on GitHub](https://github.com/mythosmystery).  
 
     ## Tests
-    Just run it
+    Try different data types in the input fields
 
     ## Questions:
     If you have any questions about this project, you can reach me [on GitHub](https://github.com/mythosmystery) or via email at axiysfire@gmail.com.
