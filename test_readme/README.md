@@ -1,9 +1,9 @@
     
 
-    #  Title: Good Readme Generator
+    #  Title: eCommerce Project
     [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     ### Project Created By: Hunter Barton
-    ### Description: A command line app that generates a professional readme file. This readme includes all of the info that any readme file should have.
+    ### Description: An API for accessing a basic ecommerce app over the internet. It has GET, PUT, POST, and DELETE routes for products, tags, and categories.
     **
     ## Table of Contents
     * [Installation](#installation)
@@ -15,10 +15,10 @@
     
     **
     ## Installation 
-    Simply install node.js and navigate to the repository folder. Run 'npm install' then run 'node index.js'.
+    Create a .env file with DB_NAME='ecommerce_db' and DB_USER, DB_PW equal to your SQL username and password. Start the MySQL server and run the schema.sql file to setup the database. Then run npm i to download NPM packages and run npm start to start the server.
 
     ## Usage
-    Run 'node index.js' then input all of the information about your project when prompted.
+    Seed the data by using 'npm seed'. Start the server by running 'npm start'. You can then access the server at localhost:3001/api/{endpoint} or {serverurl}/api/{endpoint}. There are GET, POST, PUT, and DELETE routes for products, tags, and categories. 
 
     ## License 
     [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -27,7 +27,7 @@
     If you would like to add to this project, you can [follow me on GitHub](https://github.com/mythosmystery).  
 
     ## Tests
-    Try different data types in the input fields
+    Test all of the api routes
 
     ## Questions:
     If you have any questions about this project, you can reach me [on GitHub](https://github.com/mythosmystery) or via email at axiysfire@gmail.com.
