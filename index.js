@@ -3,10 +3,10 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
 const generateMarkdown = require("./utils/generateMarkdown");
-const README_LINK = "test_readme/README.md";
+const README_LINK = process.argv[2];
 // TODO: Create an array of questions for user input
 const questions = [
-    "What is your name?",
+   "What is your name?",
    "What is your Github username?",
    "What is the title of your project?",
    "Please enter a description of your project",
@@ -17,16 +17,16 @@ const questions = [
    "What is your email?",
 ];
 const names = ["name", "username", "title", "description", "install", "usage", "contrib", "testing", "email"];
-const licenses = 
-   {
-      type: "list",
-      message: "Choose the license for your project:",
-      choices: ["Mozilla Public License", "Apache", "MIT", "Boost Software License", "Unlicense"],
-      name: "license",
-   };
+const licenses =
+{
+   type: "list",
+   message: "Choose the license for your project:",
+   choices: ["Mozilla Public License", "Apache", "MIT", "Boost Software License", "Unlicense"],
+   name: "license",
+};
 
 function getUserInput() {
-    const prompts = [];   
+   const prompts = [];
    for (let i = 0; i < questions.length; i++) {
       prompts.push({
          type: "input",
@@ -35,8 +35,8 @@ function getUserInput() {
       });
    }
    prompts.push(licenses);
-   inquirer.prompt(prompts).then((res) => {      
-      console.log(res);         
+   inquirer.prompt(prompts).then((res) => {
+      console.log(res);
       generateReadme(res);
    });
 }
@@ -44,8 +44,8 @@ function generateReadme(data) {
    const readme = generateMarkdown(data);
    console.log(readme);
    writeFileAsync(README_LINK, readme)
-   .then(() => console.log("write ok"))
-   .catch((err) => console.error(err));
+      .then(() => console.log("write ok"))
+      .catch((err) => console.error(err));
 }
 // TODO: Create a function to write README file
 const writeFileAsync = util.promisify(fs.writeFile);

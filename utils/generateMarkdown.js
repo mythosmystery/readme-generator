@@ -17,39 +17,38 @@ function renderLicenseBadge(license) {
 function generateMarkdown(data) {
    return `    
 
-    #  Title: ${data.title}
-    ${renderLicenseBadge(data.license)}
-    ### Project Created By: ${data.name}
-    ### Description: ${data.description}
-    **
-    ## Table of Contents
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [License](#license) 
-    * [Contributing](#contributing)
-    * [Tests](#tests)
-    * [Questions](#questions)
-    
-    **
-    ## Installation 
-    ${data.install}
+#  Title: ${data.title}
+${renderLicenseBadge(data.license)}
+### Project Created By: ${data.name}
+### Description: ${data.description}
+**
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license) 
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 
-    ## Usage
-    ${data.usage}
+**
+## Installation 
+${data.install}
 
-    ## License 
-    ${renderLicenseBadge(data.license)}
+## Usage
+${data.usage}
 
-    ## Contributing
-    If you would like to add to this project, you can [follow me on GitHub](https://github.com/${data.username}).  
+## License 
+${renderLicenseBadge(data.license)}
 
-    ## Tests
-    ${data.testing}
+## Contributing
+If you would like to add to this project, you can [follow me on GitHub](https://github.com/${data.username}).  
 
-    ## Questions:
-    If you have any questions about this project, you can reach me [on GitHub](https://github.com/${
-       data.username
-    }) or via email at ${data.email}.
+## Tests
+${data.testing}
+
+## Questions:
+If you have any questions about this project, you can reach me [on GitHub](https://github.com/${data.username
+      }) or via email at ${data.email}.
   `;
 }
 
