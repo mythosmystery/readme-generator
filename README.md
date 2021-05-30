@@ -24,7 +24,7 @@ Simply pass in the path to where you wish to output your generated readme and an
 [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
 ## Contributing
-If you would like to add to this project, you can [follow me on GitHub](https://github.com/mythosmystery).  
+If you would like to add to this project, you can [follow me on GitHub](https://github.com/mythosmystery).
 
 ## Tests
 Just use it
