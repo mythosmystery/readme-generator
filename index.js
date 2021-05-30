@@ -3,7 +3,7 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
 const generateMarkdown = require("./utils/generateMarkdown");
-const README_LINK = process.argv[2];
+const README_LINK = process.argv[2] || "output/README.md";
 // TODO: Create an array of questions for user input
 const questions = [
    "What is your name?",
