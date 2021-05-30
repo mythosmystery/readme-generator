@@ -1,9 +1,8 @@
-    
-
+ 
 #  Title: Readme Generator
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ### Project Created By: Hunter Barton
-### Description: A basic command line app to generate nice looking reademe files.
+### Description: A basic command line app for generating readme files. Simply answer the questions and a nice looking readme file will be created.
 **
 ## Table of Contents
 * [Installation](#installation)
@@ -15,20 +14,26 @@
 
 **
 ## Installation 
-Just navigate to the repo folder and run "node index.js 'PATH-TO-README'"
+Simply navigate to the repo folder and run `npm i` to install it.
 
 ## Usage
-Simply pass in the path to where you wish to output your generated readme and answer all questions when prompted. Your new readme will be created where you specified.
+Run `npm start` to generate a readme in the output folder, to specify your own path run `node index.js {DESIRED_PATH}`. Answer all of the questions and the info you provide will be added into the readme makdown template.
 
-## License 
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+## Configuring
+No configuration needed.
+
+## License
+MIT
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contributing
-If you would like to add to this project, you can [follow me on GitHub](https://github.com/mythosmystery).
+Create a pull request
+If you would like to add to this project, you can [follow me on GitHub](https://github.com/mythosmystery).  
 
 ## Tests
-Just use it
+Run through all questions and examine the markdown output for errors.
 
 ## Questions:
-If you have any questions about this project, you can reach me [on GitHub](https://github.com/mythosmystery) or via email at axiysfire@gmail.com.
+If you have any questions about this project, you can reach me [on GitHub](https://github.com/mythosmystery)
+or via email at axiysfire@gmail.com.
   

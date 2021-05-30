@@ -1,8 +1,8 @@
  
 #  Title: Test
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ### Project Created By: Hunter Barton
-### Description: asdhasgdjshagdjhgasdasd
+### Description: Nice project
 **
 ## Table of Contents
 * [Installation](#installation)
@@ -14,24 +14,24 @@
 
 **
 ## Installation 
-sjdhfksdjhfksjhdf
+Run `npm i` to install
 
 ## Usage
-asdhjashgdjashgdasd
+Run `npm start` to launch it
 
 ## Configuring
-sdfhksjdhfkjsdf
+Edit the .config file
 
 ## License
-Mozilla Public License
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+Apache
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Contributing
-asdasdgjhagsdasd
+Dont
 If you would like to add to this project, you can [follow me on GitHub](https://github.com/mythosmystery).  
 
 ## Tests
-sdhfgjsdgfsdf
+Test it
 
 ## Questions:
 If you have any questions about this project, you can reach me [on GitHub](https://github.com/mythosmystery)
