@@ -19,6 +19,7 @@ const questions = [
    "When was this project created?"
 ];
 const names = ["name", "username", "title", "description", "install", "usage", "config", "contrib", "testing", "email", "date"];
+const types = ["input", "input", "input", "input", "editor", "editor", "editor", "input", "input", "input", "input"];
 const licenses =
 {
    type: "list",
@@ -31,7 +32,7 @@ function getUserInput() {
    const prompts = [];
    for (let i = 0; i < questions.length; i++) {
       prompts.push({
-         type: "input",
+         type: types[i],
          message: questions[i],
          name: names[i],
       });

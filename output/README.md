@@ -1,39 +1,55 @@
  
-#  Title: Test
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+#  Test Project
+
 ### Project Created By: Hunter Barton
-### Description: Nice project
-**
-## Table of Contents
+## **Description**
+This is just a nice little test project. Lemme test some markdown stuff really quick.
+```
+DB_USER=root
+DB_NAME=test_db
+DB_PW=pw
+```
+Test test test. **test** 
+Just some more stuff maybe some line breaks  
+Broken line
+  
+  
+***
+## **Table of Contents**
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license) 
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
-
-**
+***
+  
 ## Installation 
-Run `npm i` to install
+Test
 
+  
 ## Usage
-Run `npm start` to launch it
+Use
 
+  
 ## Configuring
-Edit the .config file
+None
 
-## License
-Apache
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
+  
 ## Contributing
-Dont
+Contrib
 If you would like to add to this project, you can [follow me on GitHub](https://github.com/mythosmystery).  
-
+  
 ## Tests
-Test it
-
+adsaskjd
+  
 ## Questions:
 If you have any questions about this project, you can reach me [on GitHub](https://github.com/mythosmystery)
-or via email at axiysfire@gmail,com.
+or via email at axiysfire@gmail.com.
+  
+## License
+Mozilla Public License
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+  
+**Test Project created now, by Hunter Barton.** 
   
