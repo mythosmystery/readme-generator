@@ -1,4 +1,3 @@
- 
 #  ***Readme Generator***
 ### Project Created By: Hunter Barton
 
@@ -16,7 +15,7 @@
 ***  
   
 ## Installation 
-Simply navigate to the repo folder and run `npm i` to install it.
+Simply navigate to the repo folder and run `npm install` to install it.
   
 ## Usage
 Run `npm start` to generate a readme in the output folder, to specify your own path run `node index.js {DESIRED_PATH}`. Answer all of the questions and the info you provide will be added into the readme makdown template.
