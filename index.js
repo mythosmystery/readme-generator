@@ -9,15 +9,16 @@ const questions = [
    "What is your name?",
    "What is your Github username?",
    "What is the title of your project?",
-   "Please enter a description of your project",
-   "Enter installation instructions for your project",
-   "Enter usage information about your project",
-   "Enter information about how to configure your project",
-   "Enter the guidelines for contributing to your project",
-   "Enter guidelines for how to test your project",
+   "Please enter a description of your project: ",
+   "Enter installation instructions for your project: ",
+   "Enter usage information about your project: ",
+   "Enter information about how to configure your project: ",
+   "Enter the guidelines for contributing to your project: ",
+   "Enter guidelines for how to test your project: ",
    "What is your email?",
+   "When was this project created?"
 ];
-const names = ["name", "username", "title", "description", "install", "usage", "config", "contrib", "testing", "email"];
+const names = ["name", "username", "title", "description", "install", "usage", "config", "contrib", "testing", "email", "date"];
 const licenses =
 {
    type: "list",
