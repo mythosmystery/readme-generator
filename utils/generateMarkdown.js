@@ -40,6 +40,9 @@ ${data.usage}
   
 ## Configuring
 ${data.config}
+
+## Technologies Used
+${data.tech}
   
 ## Contributing
 ${data.contrib}
