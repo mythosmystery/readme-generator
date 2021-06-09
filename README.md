@@ -1,8 +1,9 @@
-#  ***Readme Generator***
-### Project Created By: Hunter Barton
+ 
+#  Readme Generator
 
+### Project Created By: Hunter Barton
 ## **Description**
- A basic command line app for generating readme files. Simply answer the questions and a nice looking readme file will be created.  
+A simple command line app that allows you to generate professional and customizeable readme files. Created in node.js.  
   
 ***
 ## **Table of Contents**
@@ -12,30 +13,42 @@
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
-***  
+***
   
 ## Installation 
-Simply navigate to the repo folder and run `npm install` to install it.
+Simply clone the repo from github and navigate to it. Then run `npm i` which will install all npm plugins needed for the app.
+
   
 ## Usage
-Run `npm start` to generate a readme in the output folder, to specify your own path run `node index.js {DESIRED_PATH}`. Answer all of the questions and the info you provide will be added into the readme makdown template.
+Run `npm start` to start it. Answer the prompts and when certain sections come up you will be dropped into your editor of choice to enter more detailed information about the section. 
+
   
 ## Configuring
-No configuration needed.
+There are three arrays in the `index.js` file that can be easily modified to change the prompts. The `generateMarkdown.js` file can be modified to change the markdown that the program outputs.
+
+
+## Technologies Used
+```
+* node.js
+* inquirer.js
+* VSCode markdown preview
+```
+
   
 ## Contributing
-Create a pull request
+Create a pull request and I will take a look
 If you would like to add to this project, you can [follow me on GitHub](https://github.com/mythosmystery).  
   
 ## Tests
-Run through all questions and examine the markdown output for errors.
+Just test it
   
 ## Questions:
 If you have any questions about this project, you can reach me [on GitHub](https://github.com/mythosmystery)
 or via email at axiysfire@gmail.com.
   
 ## License
-* MIT
-* [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+MIT
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
-*Readme Generator created 05-20-2021, by Hunter Barton*
+**Readme Generator created 04-22-2021, by Hunter Barton.** 
+  
